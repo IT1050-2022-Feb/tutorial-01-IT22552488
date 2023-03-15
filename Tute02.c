@@ -27,7 +27,8 @@ int main() {
 
   if (distance <= 30) {
     amount = (float)distance * 50.00;
-  } else {
+  } 
+  else {
     amount = (30 * 50) + ((distance - 30) * 40);
   }
   printf("Amount: %.2f", amount);
